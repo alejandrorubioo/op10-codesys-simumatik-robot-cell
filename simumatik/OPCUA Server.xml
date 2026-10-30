@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<Simumatik3D_OPCUA_Server Version="0.1.6">
+	 
+	<Devices>
+		<Device Driver="ABB RobotWare" Name="Robot">
+			<Parameters>
+				<Parameter Name="Controller" Value=""/>
+				<Parameter Name="Apply tool offset" Value="True"/>
+				<Parameter Name="Update rate" Value="50"/>
+			</Parameters>
+			<Variables>
+				<Variable Access="Read" Address="" DataType="Boolean" Name="doJob2Done"/>
+				<Variable Access="Read" Address="" DataType="Boolean" Name="doJob3Done"/>
+				<Variable Access="Write" Address="" DataType="Boolean" Name="diPiece3"/>
+				<Variable Access="Read" Address="" DataType="Boolean" Name="doToolON"/>
+				<Variable Access="Write" Address="" DataType="Boolean" Name="diRobotAuto_On"/>
+				<Variable Access="Read" Address="" DataType="Boolean" Name="doFinished_PickUp"/>
+				<Variable Access="Write" Address="" DataType="Boolean" Name="diPiece1"/>
+				<Variable Access="Write" Address="" DataType="Boolean" Name="diPiece2"/>
+				<Variable Access="Read" Address="" DataType="Boolean" Name="doReceived_Job"/>
+				<Variable Access="Read" Address="" DataType="Boolean" Name="doToolOFF"/>
+				<Variable Access="Write" Address="" DataType="Boolean" Name="diRobot_Halt"/>
+				<Variable Access="Read" Address="" DataType="Boolean" Name="doJob1Done"/>
+			</Variables>
+		</Device>
+	</Devices>
+</Simumatik3D_OPCUA_Server>
